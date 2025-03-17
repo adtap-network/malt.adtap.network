@@ -1,0 +1,54 @@
+{
+  "name": "malt.adtap.network",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "files": [
+      "dist",
+      "logs",
+      "public",
+      "src",
+      "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adtap-network/malt.adtap.network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/adtap-network/malt.adtap.network/issues"
+  },
+  "homepage": "https://github.com/adtap-network/malt.adtap.network#readme",
+  "devDependencies": {
+    "@types/node": "^18.19.80",
+    "eslint": "^8.0.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+      "@sinclair/typebox": "^0.34.26",
+      "@types/express": "^5.0.0",
+      "@types/pg": "^8.11.11",
+      "@types/qrcode": "^1.5.5",
+      "astro": "^5.5.2",
+      "ejs": "^3.1.10",
+      "express": "^4.21.2",
+      "libphonenumber-js": "^1.11.20",
+      "mysql2": "^3.12.0",
+      "pg": "^8.13.3",
+      "qrcode": "^1.5.4",
+      "sharp": "^0.33.5"
+  }
+}
