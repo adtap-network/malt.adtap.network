@@ -1,6 +1,6 @@
 {
   "name": "adtap-network-malt",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "",
@@ -8,8 +8,7 @@
     "./package.json": "./package.json",
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"      
+      "import": "./dist/index.js"     
     }
   },
   "scripts": {
@@ -20,10 +19,7 @@
     "format": "prettier --write 'src/**/*.ts'"
   },
   "files": [
-    "dist",
-    "logs",
-    "public",
-    "types"
+    "dist"
   ],
   "repository": {
     "type": "git",

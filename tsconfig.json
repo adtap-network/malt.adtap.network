@@ -5,7 +5,6 @@
     "rootDir": "src",
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
     "sourceMap": true,
     "module": "ESNext",
     "moduleResolution": "node",

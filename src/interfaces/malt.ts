@@ -1,4 +1,3 @@
-import { Readable } from 'stream';
 import { CountryCode } from 'libphonenumber-js';
 
 export interface MaltInterface {

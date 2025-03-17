@@ -1,5 +1,5 @@
 import Malt from "../malt";
-import AccountMaltInterface from "../../interfaces/malts/account";
+import { AccountMaltInterface } from "../../interfaces/malts/account";
 
 export default class AccountMalt extends Malt implements AccountMaltInterface {
 
