@@ -14,7 +14,7 @@ import QueryMaltInterface from './interfaces/malts/query';
 import RouteMaltInterface from './interfaces/malts/route';
 import SectionMaltInterface from './interfaces/malts/section';
 
-export {
+export type {
     MaltInterface, AccountMaltInterface, AgentMaltInterface,
     BlockMaltInterface, ErrorsMaltInterface, FaultMaltInterface,
     FiltersMaltInterface, JsonMaltInterface, KeysMaltInterface,
