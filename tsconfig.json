@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": { },
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "types": [] 
+  },
+  "include": ["src/**/*"]
+}
