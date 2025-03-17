@@ -1,9 +1,17 @@
 {
   "name": "malt.adtap.network",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
-  "types": "dist/index.d.cts",
+  "types": "dist/index.d.ts",
   "description": "",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"      
+    }
+  },
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "start": "node dist/index.js",
@@ -42,13 +50,5 @@
     "libphonenumber-js": "^1.11.20",
     "qrcode": "^1.5.4",
     "sharp": "^0.33.5"
-  },
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
   }
 }
