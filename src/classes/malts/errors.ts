@@ -1,7 +1,7 @@
 import Malt from "../malt";
 import FaultMalt from "./fault";
-import ErrorsMaltInterface from "../../interfaces/malts/errors";
-import FaultMaltInterface from "../../interfaces/malts/fault";
+import { ErrorsMaltInterface } from "../../interfaces/malts/errors";
+import { FaultMaltInterface } from "../../interfaces/malts/fault";
 
 export default class ErrorsMalt extends Malt implements ErrorsMaltInterface {
 

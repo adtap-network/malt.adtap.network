@@ -1,5 +1,5 @@
 import { MaltInterface } from '../malt';
-import FaultMaltInterface from "./fault";
+import { FaultMaltInterface } from "./fault";
 
 export interface ErrorsMaltInterface extends MaltInterface {
 
