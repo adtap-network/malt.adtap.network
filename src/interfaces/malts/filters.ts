@@ -1,6 +1,6 @@
-import MaltInterface from '../malt';
+import { MaltInterface } from '../malt';
 
-export default interface FiltersMaltInterface extends MaltInterface {
+export interface FiltersMaltInterface extends MaltInterface {
    
     columnlist: string[];
     currentrow: number;

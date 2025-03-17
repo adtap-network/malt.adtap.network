@@ -1,5 +1,5 @@
 import Malt from '../malt';
-import RouteMaltInterface from '../../interfaces/malts/route';
+import { RouteMaltInterface } from '../../interfaces/malts/route';
 
 export default class RouteMalt extends Malt implements RouteMaltInterface {
 

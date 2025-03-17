@@ -1,4 +1,4 @@
-export default interface AgentMaltInterface {
+export interface AgentMaltInterface {
 
     intervals: {[key: string]: number};
 

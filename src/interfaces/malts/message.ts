@@ -1,5 +1,5 @@
-import MaltInterface from '../malt';
+import { MaltInterface } from '../malt';
 
-export default interface MessageMaltInterface extends MaltInterface {
+export interface MessageMaltInterface extends MaltInterface {
     
 }

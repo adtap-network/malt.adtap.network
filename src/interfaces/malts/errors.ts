@@ -1,7 +1,7 @@
-import MaltInterface from '../malt';
+import { MaltInterface } from '../malt';
 import FaultMaltInterface from "./fault";
 
-export default interface ErrorsMaltInterface extends MaltInterface {
+export interface ErrorsMaltInterface extends MaltInterface {
 
     admin: boolean;
     codes: {[key: string]: {[key: string]: string}};

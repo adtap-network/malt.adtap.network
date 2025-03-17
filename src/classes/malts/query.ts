@@ -1,7 +1,7 @@
 import Malt from "../malt";
-import QueryMaltInterface from '../../interfaces/malts/query';
+import { QueryMaltInterface } from '../../interfaces/malts/query';
 import FiltersMalt from './filters';
-import FiltersMaltInterface from '../../interfaces/malts/filters';
+import { FiltersMaltInterface } from '../../interfaces/malts/filters';
 
 export default class QueryMalt extends Malt implements QueryMaltInterface {
 

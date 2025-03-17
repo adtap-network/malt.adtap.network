@@ -1,4 +1,4 @@
-export default interface SectionMaltInterface {
+export interface SectionMaltInterface {
 
     id: string;
     parent: string;

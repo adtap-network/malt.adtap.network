@@ -1,4 +1,4 @@
-export default interface AccountMaltInterface {
+export interface AccountMaltInterface {
 
     id: string ;
     class: string;

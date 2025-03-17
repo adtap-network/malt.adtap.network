@@ -1,5 +1,5 @@
 import Malt from '../malt';
-import MailerMaltInterface from '../../interfaces/malts/mailer';
+import { MailerMaltInterface } from '../../interfaces/malts/mailer';
 
 export default class MailerMalt extends Malt implements MailerMaltInterface {
 

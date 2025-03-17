@@ -1,6 +1,6 @@
-import FiltersMaltInterface from './filters';
+import { FiltersMaltInterface } from './filters';
 
-export default interface QueryMaltInterface {
+export interface QueryMaltInterface {
 
     row: {[key: string]: any};
     rows: {[key: string]: any}[];

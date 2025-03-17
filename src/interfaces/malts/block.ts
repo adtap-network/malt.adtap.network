@@ -1,4 +1,4 @@
-export default interface BlockMaltInterface {
+export interface BlockMaltInterface {
 
     name: string;
     title: string;

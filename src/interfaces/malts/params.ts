@@ -1,4 +1,4 @@
-export default interface ParamsMaltInterface {
+export interface ParamsMaltInterface {
 
     action: string;
     mode: string;

@@ -1,4 +1,4 @@
-export default interface FaultMaltInterface {
+export interface FaultMaltInterface {
 
     date: string;
     file: string;

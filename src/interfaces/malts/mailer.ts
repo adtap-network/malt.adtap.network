@@ -1,4 +1,4 @@
-export default interface MailerMaltInterface {
+export interface MailerMaltInterface {
 
     username: string; 
     hash: string;

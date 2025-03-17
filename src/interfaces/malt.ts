@@ -1,7 +1,7 @@
 import { Readable } from 'stream';
 import { CountryCode } from 'libphonenumber-js';
 
-export default interface MaltInterface {
+export interface MaltInterface {
     [key: string]: any;
 
     addslashes(str: string): string;

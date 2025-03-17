@@ -1,5 +1,5 @@
-import MaltInterface from '../malt';
+import { MaltInterface } from '../malt';
 
-export default interface JsonMaltInterface extends MaltInterface {
+export interface JsonMaltInterface extends MaltInterface {
     
 }

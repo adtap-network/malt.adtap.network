@@ -1,4 +1,4 @@
-export default interface RouteMaltInterface {
+export interface RouteMaltInterface {
 
     id: string;
     title: string; 

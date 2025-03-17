@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import { parsePhoneNumberFromString, CountryCode } from 'libphonenumber-js';
-import MaltInterface from '../interfaces/malt';
+import { MaltInterface } from '../interfaces/malt';
 
 export default class Malt implements MaltInterface {
     [key: string]: any;

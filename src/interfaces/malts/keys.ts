@@ -1,4 +1,4 @@
-export default interface KeysMaltInterface {
+export interface KeysMaltInterface {
 
     shared: string; 
     secret: string; 

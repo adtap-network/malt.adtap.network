@@ -1,7 +1,7 @@
 import Malt from '../malt';
-import SectionInterface from '../../interfaces/malts/section';
+import { SectionMaltInterface } from '../../interfaces/malts/section';
 
-export default class SectionMalt extends Malt implements SectionInterface {
+export default class SectionMalt extends Malt implements SectionMaltInterface {
 
     id: string;
     parent: string;
