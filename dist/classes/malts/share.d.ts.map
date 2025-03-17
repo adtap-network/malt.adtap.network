@@ -1,0 +1,1 @@
+{"version":3,"file":"share.d.ts","sourceRoot":"","sources":["../../../src/classes/malts/share.ts"],"names":[],"mappings":"AAAA,OAAO,IAAI,MAAM,SAAS,CAAC;AAE3B,MAAM,CAAC,OAAO,OAAO,SAAU,SAAQ,IAAI;IAEvC,UAAU,EAAC,MAAM,CAAO;IACxB,aAAa,EAAE,MAAM,CAAQ;IAC7B,YAAY,EAAE,MAAM,CAAQ;IAC5B,UAAU,EAAE,MAAM,CAAU;IAC5B,aAAa,EAAE,MAAM,CAAK;;CAI7B"}

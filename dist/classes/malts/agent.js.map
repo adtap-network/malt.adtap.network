@@ -1,0 +1,1 @@
+{"version":3,"file":"agent.js","sourceRoot":"","sources":["../../../src/classes/malts/agent.ts"],"names":[],"mappings":"AAAA,OAAO,IAAI,MAAM,SAAS,CAAC;AAG3B,MAAM,CAAC,OAAO,OAAO,SAAU,SAAQ,IAAI;IAEvC,SAAS,CAA0B;IAEnC,YAAY,SAAkC;QAC1C,KAAK,CAAC,EAAE,CAAC,CAAC;QACV,IAAI,CAAC,SAAS,GAAG,SAAS,CAAC;IAC/B,CAAC;CAEJ"}

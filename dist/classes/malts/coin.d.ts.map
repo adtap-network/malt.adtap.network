@@ -1,0 +1,1 @@
+{"version":3,"file":"coin.d.ts","sourceRoot":"","sources":["../../../src/classes/malts/coin.ts"],"names":[],"mappings":"AAAA,OAAO,IAAI,MAAM,SAAS,CAAC;AAE3B,cAAM,IAAK,SAAQ,IAAI;gBAEV,CAAC,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;IA+DpC,YAAY,IAAI,MAAM;IAEtB,YAAY,IAAI,MAAM;IAEtB,UAAU,IAAI,MAAM;IAEpB,YAAY,IAAI,MAAM;IAEtB,WAAW,IAAI,MAAM;CACxB;AACD,eAAe,IAAI,CAAC"}
