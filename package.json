@@ -1,6 +1,6 @@
 {
   "name": "malt.adtap.network",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "",
@@ -12,11 +12,11 @@
     "format": "prettier --write 'src/**/*.ts'"
   },
   "files": [
-      "dist",
-      "logs",
-      "public",
-      "src",
-      "types"
+    "dist",
+    "logs",
+    "public",
+    "src",
+    "types"
   ],
   "repository": {
     "type": "git",
@@ -38,10 +38,10 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-      "@sinclair/typebox": "^0.34.26",
-      "@types/qrcode": "^1.5.5",
-      "libphonenumber-js": "^1.11.20",
-      "qrcode": "^1.5.4",
-      "sharp": "^0.33.5"
+    "@sinclair/typebox": "^0.34.26",
+    "@types/qrcode": "^1.5.5",
+    "libphonenumber-js": "^1.11.20",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5"
   }
 }
