@@ -27,11 +27,11 @@ import ShareMalt from './classes/malts/share';
 import TradeMalt from './classes/malts/trade';
 
 export {
-    Malt, AccountMalt, AgentMalt, AnalyticMalt,
-    AnalyticsMalt, BidMalt, BlockMalt, BookMalt,
-    ChartMalt, ClaimableMalt, CoinMalt, ErrorsMalt,
-    ExtensionsMalt, FaultMalt, FiltersMalt, JsonMalt,
-    KeysMalt, LayoutMalt, MailerMalt, MessageMalt,
-    MimesMalt, ParamsMalt, QueryMalt, RouteMalt,
-    SectionMalt, ShareMalt, TradeMalt
+    Malt as Malt, AccountMalt as AccountMalt, AgentMalt as AgentMalt, AnalyticMalt as AnalyticMalt,
+    AnalyticsMalt as AnalyticsMalt, BidMalt as BidMalt, BlockMalt as BlockMalt, BookMalt as BookMalt,
+    ChartMalt as ChartMalt, ClaimableMalt as ClaimableMalt, CoinMalt as CoinMalt, ErrorsMalt as ErrorsMalt,
+    ExtensionsMalt as ExtensionsMalt, FaultMalt as FaultMalt, FiltersMalt as FiltersMalt, JsonMalt as JsonMalt,
+    KeysMalt as KeysMalt, LayoutMalt as LayoutMalt, MailerMalt as MailerMalt, MessageMalt as MessageMalt,
+    MimesMalt as MimesMalt, ParamsMalt as ParamsMalt, QueryMalt as QueryMalt, RouteMalt as RouteMalt,
+    SectionMalt, ShareMalt, TradeMalt as TradeMalt
 }
